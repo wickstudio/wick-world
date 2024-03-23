@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wick Portfolio</title>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/skins/color-red.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="css/style-switcher.css" />
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="images/wick.png" />
+</head>
+
+<body class="dark">
+  <canvas id="matrixCanvas"></canvas>
+  <!-- Matrix -->
+  <script src="/js/matrix.js"></script>
+  <!-- Main Container Start -->
+  <div class="main-container">
+    <!-- Aside Start -->
+    <div class="aside">
+      <div class="logo">
+        <a href="index.html"><span>W</span>ick</a>
+      </div>
+      <div class="nav-toggler">
+        <span></span>
+      </div>
+      <ul class="nav">
+        <li>
+          <a href="#home" class="active"><i class="fa fa-home"></i> Home</a>
+        </li>
+        <li>
+          <a href="#about"><i class="fa fa-user"></i> About</a>
+        </li>
+        <li>
+          <a href="#education"><i class="fa fa-list"></i> Project</a>
+        </li>
+        <li>
+          <a href="#contact"><i class="fa fa-comments"></i> Contact</a>
+        </li>
+
+      </ul>
+    </div>
+    <!-- Aside End -->
+    <!-- Main Content Start -->
+    <div class="main-content">
+      <!-- Home Section Start -->
+      <section class="home active section" id="home">
+        <div class="container">
+          <div class="row">
+            <div class="home-info padd-15">
+              <h3 class="hello"> 
+                Hello, my name is <span class="name">Wick</span>
+              </h3>
+              <h3 class="my-profession">
+                I'm a <span class="typing"></span>
+              </h3>
+              <p>Welcome to my World! As a software engineer, I specialize in cybersecurity and web solutions, fluent in C#, HTML, Node.js, CSS, JavaScript, Python, and TypeScript. I focus on creating tools for ethical hacking and advancing security practices, contributing to the tech community with open-source projects.</p>
+              <a href="https://discord.gg/wicks" class="btn">Join Discord Server</a>
+            </div>
+            <div class="home-img padd-15">
+              <img src="images/wick.png" alt="hero" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Home Section End -->
+
+      <!-- About Section Start -->
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>About Me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-content padd-15">
+              <div class="row">
+                <div class="about-text padd-15">
+                  <h3>I'm Wick CEO of<span> Wick® Studio&nbsp;&nbsp;</span></h3>
+                  <p>
+                    I'm dedicated to crafting innovative solutions, securing the digital realm, and actively contributing to open-source projects. I'm passionate about diving deep into code and bringing creative ideas to life. Let's connect and collaborate on exciting projects!
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="personal-info padd-15">
+                  <div class="row">
+                    <div class="info-item padd-15">
+                      <p>Birthday : 14/5/2000<span></span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Age : 24<span></span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Website : <span>www.wickdev.xyz</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Email : <span>wick@wick-studio.com</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Job : <span>Cyber Security</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>City : <span>IRAQ</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Languages : <span>Arabic & English</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>CEO : <span>Wick Studio</span></p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="buttons padd-15">
+                      <a href="https://github.com/wickstudio" class="btn">My Github</a>
+                      <a href="#contact" class="btn hire-me">Hire Me</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="skills padd-15">
+                  <div class="row">
+                    <div class="skills-item padd-15">
+                      <h5>JAVASCRIPT</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 95%"></div>
+                        <div class="skill-percent">95%</div>
+                      </div>
+                    </div>
+                    <div class="skills-item padd-15">
+                      <h5>PYTHON</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 80%"></div>
+                        <div class="skill-percent">80%</div>
+                      </div>
+                    </div>
+                    <div class="skills-item padd-15">
+                      <h5>C#</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 60%"></div>
+                        <div class="skill-percent">60%</div>
+                      </div>
+                    </div>
+                    <div class="skills-item padd-15">
+                      <h5>TypeScript</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 76%"></div>
+                        <div class="skill-percent">75%</div>
+                      </div>
+                    </div>
+                    <div class="skills-item padd-15">
+                      <h5>Java</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 45%"></div>
+                        <div class="skill-percent">45%</div>
+                      </div>
+                    </div>
+                    <div class="skills-item padd-15">
+                      <h5>HTML&CSS</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 100%"></div>
+                        <div class="skill-percent">100%</div>
+                      </div>
+                    </div>
+                    <div class="skills-item padd-15">
+                      <h5>CyberSecurity</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 90%"></div>
+                        <div class="skill-percent">90%</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About Section End -->
+
+      <!-- Educations & Experience Section Start -->
+      <section class="education section" id="education">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Projects & Discord Bots</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="education padd-15">
+              <h3 class="title">Projects</h3>
+              <div class="row">
+                <div class="timeline-box padd-15">
+                  <div class="timeline shadow-dark">
+                    <!-- Timeline item -->
+                    <div class="timeline-item">
+                      <div class="circle-dot"></div>
+                      <h3 class="timeline-date">
+                        <i class='bx bxl-html5' ></i> 2023
+                      </h3>
+                      <h4 class="timeline-title">
+                        <a href="https://islamicadkar.xyz/" target="_blank">Islamic Adkar API</a>
+                      </h4>
+                      <p class="timeline-text">
+                        Islamic Adkar API is an innovative project designed to provide developers and creators with structured access to Islamic supplications (Adkar). Developed by Wick Studio, this API is ideal for integrating into Islamic apps, websites, and other digital platforms, enhancing the spiritual experience of users.
+                      </p>
+                    </div>
+                    <!-- Timeline item -->
+                    <div class="timeline-item">
+                      <div class="circle-dot"></div>
+                      <h3 class="timeline-date">
+                        <i class='bx bxl-python' ></i> 2022
+                      </h3>
+                      <h4 class="timeline-title">
+                        <a href="https://github.com/wickstudio/System-Information" target="_blank">System Information Tool</a>
+                      </h4>
+                      <p class="timeline-text">
+                        versatile command-line tool designed to provide detailed insights into your system and efficiently manage running processes. Whether you want to monitor system performance or investigate running applications.
+                      </p>
+                    </div>
+                    <!-- Timeline item -->
+                    <div class="timeline-item">
+                      <div class="circle-dot"></div>
+                      <h3 class="timeline-date">
+                        <i class='bx bxl-python' ></i> 2022
+                      </h3>
+                      <h4 class="timeline-title">
+                        <a href="https://github.com/wickstudio/web-sniper" target="_blank">Web Sniper</a>
+                      </h4>
+                      <p class="timeline-text">
+                        Web-Sniper: A versatile Python tool for web scraping and code analysis. Fetch HTML, CSS, and JavaScript code, perform code analysis, and download images from websites.
+                      </p>
+                    </div>
+                    <!-- Timeline item -->
+                    <div class="timeline-item">
+                      <div class="circle-dot"></div>
+                      <h3 class="timeline-date">
+                        <i class='bx bxl-html5' ></i> 2021
+                      </h3>
+                      <h4 class="timeline-title">
+                        <a href="https://personal-website-template-uuqp.vercel.app/" target="_blank">Personal website template</a>
+                      </h4>
+                      <p class="timeline-text">
+                        Personal website template for web developers and designers, featuring a cyberpunk-inspired design and smooth animations.
+                      </p>
+                    </div>
+                    <!-- Timeline item -->
+                    <div class="timeline-item">
+                      <div class="circle-dot"></div>
+                      <h3 class="timeline-date">
+                        <i class='bx bxl-python' ></i> 2021
+                      </h3>
+                      <h4 class="timeline-title">
+                        <a href="https://github.com/wickstudio/instagram-users-grabber" target="_blank">Instagram Users Grabber</a>
+                      </h4>
+                      <p class="timeline-text">
+                        Instagram Users Grabber is a Python script that allows you to check the availability of usernames on Instagram. It provides a simple command-line interface for checking multiple usernames and categorizing them as available or unavailable.
+                      </p>
+                    </div>
+                    <!-- Timeline item -->
+                    <div class="timeline-item">
+                      <div class="circle-dot"></div>
+                      <h3 class="timeline-date">
+                        <i class='bx bxs-file-css' ></i> 2021
+                      </h3>
+                      <h4 class="timeline-title">
+                        <a href="https://github.com/wickstudio/terminal-chat" target="_blank">Terminal Chat</a>
+                      </h4>
+                      <p class="timeline-text">
+                        Terminal Chat is an interactive and stylish terminal-style chat interface for your website. It provides a nostalgic user experience reminiscent of old-school computer terminals. Customize the appearance, behavior, and content to suit your preferences. It also supports sending messages to Discord webhooks.
+                      </p>
+                    </div>
+                    <!-- Timeline item -->
+                    <div class="timeline-item">
+                      <div class="circle-dot"></div>
+                      <h3 class="timeline-date">
+                        <i class='bx bxs-file-js' ></i> 2022
+                      </h3>
+                      <h4 class="timeline-title">
+                        <a href="https://github.com/wickstudio/cookie-protector" target="_blank">Cookie Protector</a>
+                      </h4>
+                      <p class="timeline-text">
+                        Cookie Protector is a Chrome extension designed to enhance your browsing privacy by protecting your cookies from theft and unauthorized access.
+                      </p>
+                    </div>
+                    <!-- Timeline item -->
+                    <div class="timeline-item">
+                      <div class="circle-dot"></div>
+                      <h3 class="timeline-date">
+                        <i class='bx bxl-nodejs'></i> 2023
+                      </h3>
+                      <h4 class="timeline-title">
+                        <a href="https://www.npmjs.com/package/islamic-library" target="_blank">Islamic Library Package</a>
+                      </h4>
+                      <p class="timeline-text">
+                        Islamic Library Package is a Node.js library developed by Wick Studio, offering easy access to Islamic Adkar (supplications) and prayer times based on location.
+                      </p>
+                    </div>
+                    <!-- Timeline item -->
+                    <div class="timeline-item">
+                      <div class="circle-dot"></div>
+                      <h3 class="timeline-date">
+                        <i class='bx bxl-python' ></i> 2022
+                      </h3>
+                      <h4 class="timeline-title">
+                        <a href="https://github.com/wickstudio/cleanup-tool" target="_blank">Cleanup Tool</a>
+                      </h4>
+                      <p class="timeline-text">
+                        Cleanup Tool is a powerful, user-friendly Python script designed to help users efficiently clean and manage their Windows systems. This tool provides a range of functionalities to remove unnecessary files, clear temporary directories, manage browser caches, and much more, all through an easy-to-use command-line interface.
+                      </p>
+                    </div>
+                    <!-- Timeline item -->
+                    <div class="timeline-item">
+                      <div class="circle-dot"></div>
+                      <h3 class="timeline-date">
+                        <i class='bx bxl-python' ></i> 2022
+                      </h3>
+                      <h4 class="timeline-title">
+                        <a href="https://github.com/wickstudio/Video-to-MP3-Converter" target="_blank">Video to MP3 Converter</a>
+                      </h4>
+                      <p class="timeline-text">
+                        A simple and efficient command-line tool for converting video files into MP3 format, developed as part of WICK STUDIO's suite of multimedia utilities. Easy to use with batch file-based setup and execution, perfect for quick conversions.
+                      </p>
+                    </div>
+                    <!-- Timeline item -->
+                    <div class="timeline-item">
+                      <div class="circle-dot"></div>
+                      <h3 class="timeline-date">
+                        <i class='bx bxl-python' ></i> 2021
+                      </h3>
+                      <h4 class="timeline-title">
+                        <a href="https://github.com/wickstudio/IPExplorer" target="_blank">IP Explorer</a>
+                      </h4>
+                      <p class="timeline-text">
+                        Wick Tool : A simple IP Information Retrieval Tool for ethical cybersecurity research and network administration. Not for hacking or malicious use.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="experience padd-15">
+              <h3 class="title">Discord Bots</h3>
+              <div class="row">
+                <div class="timeline-box padd-15">
+                  <div class="timeline shadow-dark">
+                    <!-- Timeline item -->
+                    <div class="timeline-item">
+                      <div class="circle-dot"></div>
+                      <h3 class="timeline-date">
+                        <i class='bx bxl-nodejs' ></i> 2020
+                      </h3>
+                      <h4 class="timeline-title">
+                        <a href="https://github.com/wickstudio/Translator_discord_bot" target="_blank">Translator Discord Bot</a>
+                      </h4>
+                      <p class="timeline-text">
+                        Discord Bot for auto translate in selected channel from english to arabic.
+                      </p>
+                    </div>
+                    <!-- Timeline item -->
+                    <div class="timeline-item">
+                      <div class="circle-dot"></div>
+                      <h3 class="timeline-date">
+                        <i class='bx bxl-nodejs' ></i> 2022
+                      </h3>
+                      <h4 class="timeline-title">
+                        <a href="https://github.com/wickstudio/Discord-Message-Logger-Bot" target="_blank">Discord Message Logger</a>
+                      </h4>
+                      <p class="timeline-text">
+                        A Discord bot that automatically logs messages from a specified channel to a JSON file. Easily configurable and customizable for your server's needs.
+                      </p>
+                    </div>
+                    <!-- Timeline item -->
+                    <div class="timeline-item">
+                      <div class="circle-dot"></div>
+                      <h3 class="timeline-date">
+                        <i class='bx bxl-nodejs' ></i> 2022
+                      </h3>
+                      <h4 class="timeline-title">
+                        <a href="https://github.com/wickstudio/discord-quiz-bot" target="_blank">Discord Quiz Bot</a>
+                      </h4>
+                      <p class="timeline-text">
+                        A versatile Discord bot designed for engaging quiz experiences! Challenge your community with random quiz questions, manage user points, display leaderboards, and sprinkle inspiration with a collection of quotes. Easy to set up and customize for your server's unique style.
+                      </p>
+                    </div>
+                    <!-- Timeline item -->
+                    <div class="timeline-item">
+                      <div class="circle-dot"></div>
+                      <h3 class="timeline-date">
+                        <i class='bx bxl-nodejs' ></i> 2023
+                      </h3>
+                      <h4 class="timeline-title">
+                        <a href="https://github.com/wickstudio/auto-line-discord-bot" target="_blank">Auto Line Bot</a>
+                      </h4>
+                      <p class="timeline-text">
+                        This Discord bot automatically sends a predefined image to specific channels. Administrators can add or remove channels from the auto line feature using the `!line` command
+                      </p>
+                    </div>
+                    <!-- Timeline item -->
+                    <div class="timeline-item">
+                      <div class="circle-dot"></div>
+                      <h3 class="timeline-date">
+                        <i class='bx bxl-nodejs' ></i> 2022
+                      </h3>
+                      <h4 class="timeline-title">
+                        <a href="https://github.com/wickstudio/fivem-discord-bot" target="_blank">Fivem Discord Bot</a>
+                      </h4>
+                      <p class="timeline-text">
+                        This Discord bot is designed to interact with a FiveM server, providing real-time updates and server information directly in a Discord channel. It features automatic server status updates, player count displays, and detailed server information.
+                      </p>
+                    </div>
+                    <!-- Timeline item -->
+                    <div class="timeline-item">
+                      <div class="circle-dot"></div>
+                      <h3 class="timeline-date">
+                        <i class='bx bxl-nodejs' ></i> 2023
+                      </h3>
+                      <h4 class="timeline-title">
+                        <a href="https://github.com/wickstudio/discord-temp-channels-bot" target="_blank">Discord Temp Channels Bot</a>
+                      </h4>
+                      <p class="timeline-text">
+                        This Discord bot allows users with administrative permissions to create temporary voice channels with various functionalities.
+                      </p>
+                    </div>
+                    <!-- Timeline item -->
+                    <div class="timeline-item">
+                      <div class="circle-dot"></div>
+                      <h3 class="timeline-date">
+                        <i class='bx bxl-nodejs' ></i> 2022
+                      </h3>
+                      <h4 class="timeline-title">
+                        <a href="https://github.com/wickstudio/Discord-Ticket-Bot" target="_blank">Discord Ticket Bot</a>
+                      </h4>
+                      <p class="timeline-text">
+                        Introducing our latest creation for Discord communities: Ticket Bot! Designed with community support and interaction in mind, Ticket Bot streamlines the process of handling queries, issues, and discussions by automating ticket creation and management. Whether you're running a gaming guild, a study group, or a bustling online community, our bot ensures that every member's voice is heard, and no query goes unnoticed
+                      </p>
+                    </div>
+                    <!-- Timeline item -->
+                    <div class="timeline-item">
+                      <div class="circle-dot"></div>
+                      <h3 class="timeline-date">
+                        <i class='bx bxl-nodejs' ></i> 2023
+                      </h3>
+                      <h4 class="timeline-title">
+                        <a href="https://github.com/wickstudio/Discord-Support-Bot" target="_blank">Discord Support Bot</a>
+                      </h4>
+                      <p class="timeline-text">
+                        This project is a Discord bot designed to provide support functionality within Discord servers. It plays a specific audio message when a user joins a designated support voice channel and sends notifications to the support team.
+                      </p>
+                    </div>
+                    <!-- Timeline item -->
+                    <div class="timeline-item">
+                      <div class="circle-dot"></div>
+                      <h3 class="timeline-date">
+                        <i class='bx bxl-nodejs' ></i> 2023
+                      </h3>
+                      <h4 class="timeline-title">
+                        <a href="https://github.com/wickstudio/leveling-discord-bot" target="_blank">Discord Leveling Bot</a>
+                      </h4>
+                      <p class="timeline-text">
+                        This Discord bot provides a leveling system for server members, rewarding them with roles and displaying leaderboards based on their activity in text channels.
+                      </p>
+                    </div>
+                    <!-- Timeline item -->
+                    <div class="timeline-item">
+                      <div class="circle-dot"></div>
+                      <h3 class="timeline-date">
+                        <i class='bx bxl-typescript' ></i> 2023
+                      </h3>
+                      <h4 class="timeline-title">
+                        <a href="https://github.com/wickstudio/Roulette-Discord-Bot" target="_blank">Roulette Discord Bot</a>
+                      </h4>
+                      <p class="timeline-text">
+                        The "Roulette Discord Bot" by Wick Studio is a Node.js-based Discord bot that brings the thrill of roulette games to Discord communities. It offers a fun, interactive gaming experience with commands for spinning the roulette wheel. Tailored for entertainment and engagement, this bot is perfect for servers looking to add a gambling element. It's open-source under the MIT License, inviting collaboration and customization.
+                      </p>
+                    </div>
+                    <!-- Timeline item -->
+                    <div class="timeline-item">
+                      <div class="circle-dot"></div>
+                      <h3 class="timeline-date">
+                        <i class='bx bxl-typescript' ></i> 2023
+                      </h3>
+                      <h4 class="timeline-title">
+                        <a href="https://github.com/wickstudio/attendance-discord-bot" target="_blank">Attendance Discord Bot</a>
+                      </h4>
+                      <p class="timeline-text">
+                        Attendance Discord Bot is a unique bot designed to manage attendance within Discord servers. It allows users to log in and log out, track time, view leaderboards, and much more, making it an ideal solution for communities and groups looking to keep track of participation and activities.
+                      </p>
+                    </div>
+                    <!-- Timeline item -->
+                    <div class="timeline-item">
+                      <div class="circle-dot"></div>
+                      <h3 class="timeline-date">
+                        <i class='bx bxl-nodejs' ></i> 2022
+                      </h3>
+                      <h4 class="timeline-title">
+                        <a href="https://github.com/wickstudio/discord-ai-chatbot" target="_blank">Wick Studio's AI BOT</a>
+                      </h4>
+                      <p class="timeline-text">
+                        Wick Studio's AI Discord bot is a powerful and versatile bot designed to enhance your Discord experience. It features image text extraction, intelligent conversation, and more, all powered by the latest in AI technology.
+                      </p>
+                    </div>
+                    <!-- Timeline item -->
+                    <div class="timeline-item">
+                      <div class="circle-dot"></div>
+                      <h3 class="timeline-date">
+                        <i class='bx bxl-nodejs' ></i> 2022
+                      </h3>
+                      <h4 class="timeline-title">
+                        <a href="https://github.com/wickstudio/discord-welcomer-bot" target="_blank">Discord Welcomer Bot</a>
+                      </h4>
+                      <p class="timeline-text">
+                        The "discord-welcomer-bot" by Wick Studio is a JavaScript-based Discord bot designed to welcome new members to a server. It's an open-source project under the MIT License, focusing on enhancing community engagement by greeting newcomers. This bot represents a foundational tool for creating a friendly and inviting server atmosphere. For further details and to explore its functionalities,
+                      </p>
+                    </div>
+                    <!-- Timeline item -->
+                    <div class="timeline-item">
+                      <div class="circle-dot"></div>
+                      <h3 class="timeline-date">
+                        <i class='bx bxl-nodejs' ></i> 2022
+                      </h3>
+                      <h4 class="timeline-title">
+                        <a href="https://github.com/wickstudio/discord-apply-bot" target="_blank">Discord Apply Bot</a>
+                      </h4>
+                      <p class="timeline-text">
+                        The "discord-apply-bot" by Wick Studio is a Discord bot designed to manage applications within Discord servers. It's coded in JavaScript and is an essential tool for communities looking for an organized way to handle member applications. This project is open-source under the MIT License, encouraging contributions and modifications.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+      </section>
+      <!-- Educations & Experience Section End -->
+
+      <!-- Contact Section Start -->
+      <section class="contact section" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Contact Me</h2>
+            </div>
+          </div>
+          <h3 class="contact-title padd-15">Do You Have Any Questions?</h3>
+          <h4 class="contact-sub-title padd-15">Here's all my social media accounts</h4>
+          <div class="row">
+            <!-- Contact info item-->
+            <div class="contact-info-item padd-15">
+              <div class="icon"> <i class='bx bxl-github'></i></div>
+              <h4>Github.</h4>
+              <a href="https://github.com/wickstudio" target="_blank">
+                <p>Follow Me</p>
+              </a>
+            </div>  
+            <!-- Contact info item-->
+            <div class="contact-info-item padd-15">
+              <div class="icon"><i class='bx bxl-instagram'></i></div>
+              <h4>Instagram</h4>
+              <a href="https://www.instagram.com/mik__subhi" target="_blank">
+                <p>Follow me</p>
+              </a>
+            </div>
+            <!-- Contact info item-->
+            <div class="contact-info-item padd-15">
+              <i class='bx bxl-spotify'></i>
+              <h4>Spotify</h4>
+              <a href="https://open.spotify.com/user/u649qsqyj5lebvo763ai6z56t" target="_blank">
+                <p>Follow me</p>
+              </a>
+            </div>
+            <!-- Contact info item-->
+            <div class="contact-info-item padd-15">
+              <i class='bx bxl-youtube' ></i>
+              <h4>Youtube</h4>
+              <a href="https://www.youtube.com/@wick_studio" target="_blank">
+                <p>Subscribe</p>
+              </a>
+            </div>
+            <!-- Contact info item-->
+            <div class="contact-info-item padd-15">
+              <i class='bx bx-x' ></i>
+              <h4>X</h4>
+              <a href="https://twitter.com/MrWick077" target="_blank">
+                <p>Follow me</p>
+              </a>
+            </div>
+            <!-- Contact info item-->
+            <div class="contact-info-item padd-15">
+              <i class='bx bxl-discord-alt' ></i>
+              <h4>Discord</h4>
+              <a href="https://discord.com/invite/wicks" target="_blank">
+                <p>Join Server</p>
+              </a>
+            </div>
+            <!-- Contact info item-->
+            <div class="contact-info-item padd-15">
+              <i class='bx bxl-telegram' ></i>
+              <h4>Telegram</h4>
+              <a href="https://t.me/control205" target="_blank">
+                <p>Add me</p>
+              </a>
+            </div>
+             <!-- Contact info item-->
+             <div class="contact-info-item padd-15">
+              <i class='bx bx-git-repo-forked' ></i>
+              <h4>Replit</h4>
+              <a href="https://replit.com/@wickstudio" target="_blank">
+                <p>Follow me</p>
+              </a>
+            </div>
+          </div>
+          <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
+          <h4 class="contact-sub-title padd-15">
+            I'M VERY RESPONSIVE TO MESSAGES
+          </h4>
+          <!-- Contact form -->
+          <div class="row">
+            <div class="contact-form padd-15">
+              <div class="row">
+                <div class="form-item col-6 padd-15">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Name" />
+                  </div>
+                </div>
+                <div class="form-item col-6 padd-15">
+                  <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email" />
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-item col-12 padd-15">
+                  <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Subject" />
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-item col-12 padd-15">
+                  <div class="form-group">
+                    <textarea class="form-control" placeholder="Message"></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-item col-12 padd-15">
+                  <div class="form-group">
+                    <button type="submit" class="btn">Send Message</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact Section End -->
+    </div>
+    <!-- Main Content End -->
+  </div>
+  <!-- Main Container End -->
+  <!-- Custom JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+    referrerpolicy="no-referrer"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
